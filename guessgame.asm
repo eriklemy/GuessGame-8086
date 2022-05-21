@@ -1,6 +1,5 @@
 ;               AOC - 2022
 ; Erick Lemmy dos Santos Oliveira
-; Javier Agustin 
  
 ; GUESS GAME em Assembly 8086 que simule o mecanismo de aproximacao sucessiva para valores entre 00 e 99.
 ; Dois jogadores intercalam entre os papeis de DESAFIADO e DESAFIANTE.
@@ -8,12 +7,12 @@
 ; O processo deve inicialmente pedir ao DESAFIANTE que digite dois digitos (de 00 a 99), sem exibi-los na tela.
 ; Este sera o valor secreto a ser procurado;
 ; A seguir, o programa deve solicitar um palpite ao DESAFIADO. 
-; TambÈm s„o dois digitos, mas devem ser exibidos na tela;
+; Tamb√©m s√£o dois digitos, mas devem ser exibidos na tela;
 
 ; O programa compara o valor recem entrado com o valor secreto e informa:
 ; MAIOR: se o valor secreto for maior que o recem digitado. Neste caso, o programa pede mais um palpite para o DESAFIADO (volta ao passo 2);
 ; MENOR: se o valor secreto for menor que o recem digitado. Neste caso, o programa pede mais um palpite para o DESAFIADO (volta ao passo 2);
-; IGUAL: se o valor secreto for igual ao recem digitado. Neste caso, o programa encerra mostrando o n˙mero de tentativas necess·rias para alcancar a resposta.
+; IGUAL: se o valor secreto for igual ao recem digitado. Neste caso, o programa encerra mostrando o n√∫mero de tentativas necess√°rias para alcancar a resposta.
 
 
 ;Begin
